@@ -3,8 +3,6 @@
 # https://github.com/Nyr/wireguard-install
 #
 # Copyright (c) 2020 Nyr. Released under the MIT License.
-
-
 # Detect Debian users running the script with "sh" instead of bash
 if readlink /proc/$$/exe | grep -q "dash"; then
 	echo 'This installer needs to be run with "bash", not "sh".'
