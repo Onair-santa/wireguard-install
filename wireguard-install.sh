@@ -191,10 +191,10 @@ ask_for_interface_name() {
         fi
 
         # Confirm the interface name
-        read -p "You selected '${selected_interface}'. Are you sure? (y/n) " confirmed
+        read -p "You selected '${selected_interface}'. Are you sure? (yes/no) " confirmed
         confirmed=$(echo $confirmed | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
 
-        if [[ $confirmed != "y" ]]; then
+        if [[ $confirmed != "yes" ]]; then
             echo "Let's try again."
         fi
     done
