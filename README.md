@@ -15,5 +15,5 @@ Once it ends, you can run it again to add more users, remove some of them or eve
 I recommend these cheap cloud providers for your VPN server:
 
 - [Inferno](https://bit.ly/3Kfkf8M): Worldwide locations, Unlimited 1Gbit traffic, Free website transfers, free weekly backups, free 3 m, 25% promocode  -  25only
-- [PQ](https://pq.hosting/?from=534345): Worldwide locations, Unlimited traffic, starting at €3/month
+
 
